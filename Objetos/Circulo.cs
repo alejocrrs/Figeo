@@ -12,10 +12,5 @@ namespace Objetos
         {
             return Convert.ToDecimal(Math.PI) * radio * radio;
         }
-
-        public static decimal AreaError(decimal radio)
-        {
-            return Convert.ToDecimal(Math.PI) * radio;
-        }
     }
 }

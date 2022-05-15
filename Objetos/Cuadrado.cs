@@ -11,6 +11,7 @@ namespace Objetos
         public static decimal Area(decimal lado)
         {
             return lado * lado;
+            //return Convert.ToDecimal(Math.Pow((double)lado, 2));
         }
     }
 }
